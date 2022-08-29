@@ -6,4 +6,6 @@ This is the project model my business, JN Programutveckling AB, uses for all its
 
 The primary goal of this project is to have a project model I can consistently use for any new project in my business. Having a project model in place makes working much more efficient, because I have a process to rely on that I know works for me.
 
-The secondary goal is to give other people inspiration to create their own project model or just start to plan more. I have a disability which affects my memory, among other things. Being able to plan ahead and make models like this has helped me tremendously overcoming many difficulties born from my disability.
+The secondary goal is to give other people inspiration to create their own project model or just start to plan more. I have a disability which affects my memory, among other things. Being able to plan ahead and make models like this has helped me tremendously overcoming many difficulties born from my disability. It's my belief that other people would benefit from planning, as well.
+
+## 
