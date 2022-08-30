@@ -10,7 +10,7 @@ The secondary goal is to give other people inspiration to create their own proje
 
 ## Get the docs
 
-This repository consists of Markdown files that make up the project model. To download all of them, you could either download the [latest release](http://github.com/jn-programutveckling/project-model/releases) (if you want a stable version of the project model) or [clone](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) the current state of the repo. You could also just read it [online on GitHub](https://github.com/jn-programutveckling/project-model).
+This repository consists of Markdown files that make up the project model. To download all of them, you could either download the [latest release](https://github.com/jn-programutveckling/project-model/releases) (if you want a stable version of the project model) or [clone](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) the current state of the repo. You could also just read it [online on GitHub](https://github.com/jn-programutveckling/project-model).
 
 ## How to read and where to start
 
