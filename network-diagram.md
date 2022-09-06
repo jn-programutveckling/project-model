@@ -4,13 +4,12 @@ This file shows a simplified [network diagram](https://project-management.info/p
 
 | Issue | Name                                 | Priority[^1] | Dependent upon |
 | ----: | ------------------------------------ | -----------: | -------------: |
-| ~~1~~ | ~~Create basic repo docs~~           |        ~~3~~ |                |
-|       | ~~*v0.1.0*~~                         |              |                |
 |     2 | Create templates for basic repo docs |            4 |                |
 |     4 | Initial planning                     |            4 |                |
 |     5 | Working                              |            4 |                |
 |     6 | Release                              |            4 |                |
 |     7 | Further planning                     |            4 |                |
+|       | *v0.2.0*                             |              |                |
 |     3 | Project stages                       |            4 |     4, 5, 6, 7 |
 |       | *v1.0.0*                             |              |                |
 
