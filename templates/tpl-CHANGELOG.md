@@ -1,0 +1,25 @@
+# Changelog
+
+This file chronicles all noteworthy changes to this project over time. It is based on [Keep a changelog 1.0.0](https://keepachangelog.com/en/1.0.0/). The versioning scheme I use for the project is [Semantic Versioning 2.0.0](https://semver.org/).
+
+## [Unreleased][unreleased]
+
+-   An ongoing list of unreleased changes. The contents here will go into a list of changes under the next release's heading.
+
+## Date of latest release : [version number of latest release]
+
+-   A list of changes to the project (added, changed, removed etc. (see Keep a changelog)).
+
+## Date of the release before : [version number of the release before]
+
+-   A list of changes…
+
+# Instructions
+
+1.   Remove the *Instructions* section. :smile:
+2.   Write changes to the project under *Unreleased*.
+3.   When it's time for release, move them under a heading with the date and version number of the next release.
+4.   *Unreleased* and the version numbers are linked. Change their targets to the appropriate values for your project. The initial release should have the target `<first commit>...<first version>`, for example `1234...v0.1.0`. The link for unreleased should have the target `<latest version>...HEAD`, for example `v0.1.0..HEAD`.
+
+[unreleased]: https://github.com/jn-programutveckling/project-model/compare/v0.1.0...HEAD
+[version number of latest release]: https://github.com/jn-programutveckling/project-model/compare/89e0cd55d048b496978f0ffe2bb2b8d5e8d75247...v0.1.0
