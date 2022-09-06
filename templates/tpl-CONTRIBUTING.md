@@ -12,5 +12,6 @@ Feel free to [reach out to me][mailto:kontakt@jn-programutveckling.se] if you ha
 
 # Instructions
 
-1.   Change the link target of *open an issue* in the first section to an appropriate URL for your project.
-2.   Change the e-mail link in the last paragraph ("Feel free to reach out to me…") to match your own e-mail address or however you want to receive messages.
+1.   Remove the *Instructions* section. :smile:
+2.   Change the link target of *open an issue* in the first section to an appropriate URL for your project.
+3.   Change the e-mail link in the last paragraph ("Feel free to reach out to me…") to match your own e-mail address or however you want to receive messages.
