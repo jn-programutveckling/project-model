@@ -18,9 +18,10 @@ Describe how to use the project. Give one or more examples of both basic and adv
 
 State your license and link to your LICENSE file. Example:
 
->   Project name 
+>   Project name is distributed under an MIT License. Read the full terms in the file [LICENSE](LICENSE).
 
 # Instructions
 
-1.   Remove the *Instructions* section. :smile:
-2.   Change *Project name* to the name of your project
+1.   Change *Project name* to the name of your project
+2.   Follow the instructions under each heading: *Goals*, *Installation*, *Usage* and *License*.
+3.   Remove the *Instructions* section. :smile:

@@ -12,7 +12,7 @@ This file shows a simplified [network diagram](https://project-management.info/p
 
 # Instructions
 
+1.   Change everything in the table according to your own issues and planned releases.
 1.   Remove the *Instructions* section. :smile:
-2.   Change everything in the table according to your own issues and planned releases.
 
 [^1]: Priorities are based on GitHub labels, in the following descending order: 1 bug, 2 improvement, 3 docs, 4 new feature
