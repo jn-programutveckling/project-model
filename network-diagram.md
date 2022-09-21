@@ -1,7 +1,5 @@
 # Network diagram
 
-This file shows a simplified [network diagram](https://project-management.info/project-schedule-network-diagram/) in table form. Each row is tied to one issue. The network diagram is for figuring out the best order to work on issues, taking into account priority and dependent issues. Since I use a time-fixed release schedule, the milestones that typically exists in network diagrams don't exist in this.
-
 | Issue | Name             | Priority[^1] | Dependent upon |
 | ----: | ---------------- | -----------: | -------------: |
 |     4 | Initial planning |            4 |                |
