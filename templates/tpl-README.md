@@ -22,6 +22,7 @@ State your license and link to your LICENSE file. Example:
 
 # Instructions
 
-1.   Change *Project name* to the name of your project
-2.   Follow the instructions under each heading: *Goals*, *Installation*, *Usage* and *License*.
-3.   Remove the *Instructions* section. :smile:
+1.   Change *Project name* to the name of your project.
+2.   Write a short summary.
+3.   Follow the instructions under each heading: *Goals*, *Installation*, *Usage* and *License*.
+4.   Remove the *Instructions* section. :smile:
