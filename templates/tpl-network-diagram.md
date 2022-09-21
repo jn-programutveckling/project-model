@@ -10,7 +10,7 @@ This file shows a simplified [network diagram](https://project-management.info/p
 
 # Instructions
 
-1.   Change everything in the table according to your own issueses.
+1.   Change everything in the table according to your own issues.
 1.   Remove the *Instructions* section. :smile:
 
 [^1]: Priorities are based on GitHub labels, in the following descending order: 1 bug, 2 improvement, 3 docs, 4 new feature
