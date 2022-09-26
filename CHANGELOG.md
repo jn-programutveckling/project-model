@@ -2,7 +2,7 @@
 
 This file chronicles all noteworthy changes to this project over time. It is based on [Keep a changelog 1.0.0](https://keepachangelog.com/en/1.0.0/). The versioning scheme I use for the project is [Semantic Versioning 2.0.0](https://semver.org/).
 
-## [Unreleased][unreleased]
+## [Unreleased]
 
 -   Added
     -   Templates for readme, license changelog, guidelines for contributions and network diagram.
@@ -13,6 +13,7 @@ This file chronicles all noteworthy changes to this project over time. It is bas
     
 -   Removed
     -   Network diagram. I'm using a proper project management tool now.
+    -   Template for a network diagram.
 
 
 
