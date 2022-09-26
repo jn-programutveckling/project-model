@@ -6,9 +6,13 @@ This file chronicles all noteworthy changes to this project over time. It is bas
 
 -   Added
     -   Templates for readme, license changelog, guidelines for contributions and network diagram.
+-   Changed
+    -   Now I only use GitHub issues for things other people report.
+    -   Placement of dates in the changelog.
 
 
-## 2022-09-01 : [v0.1.0]
+
+## [v0.1.0] (2022-09-01)
 
 -   Added
     -   A readme, license, changelog, guidelines for contributions and a network diagram.
