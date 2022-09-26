@@ -10,6 +10,9 @@ This file chronicles all noteworthy changes to this project over time. It is bas
     -   Now I only use GitHub issues for things other people report.
     -   Placement of dates in the changelog.
 
+-   Removed
+    -   Network diagram. I'm using a proper project management tool now.
+
 
 
 ## [v0.1.0] (2022-09-01)
