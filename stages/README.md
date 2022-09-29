@@ -4,3 +4,4 @@ In this folder, the stages of this project model are described. Each stage is pr
 
 1.   [Planning](1-planning.md)
 1.   [Working](2-working.md)
+1.   [Release](3-release.md)
