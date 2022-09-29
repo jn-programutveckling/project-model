@@ -8,3 +8,5 @@ This is the second stage of the project model. In this stage we work on tasks in
           2.   Write code so that the tests pass.
           3.   Refactor the code.
      2.   Update documentation of the code and if applicable, external documentation such as read-me, manual or wiki.
+
+Remember to commit the code often.
