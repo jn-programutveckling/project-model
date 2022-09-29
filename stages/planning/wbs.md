@@ -8,6 +8,10 @@ Be aware though not to go overboard with this. Dividing the task *Email my spous
 
 When a task has sub-tasks, that task should be seen as a heading for a group, not a task itself. Thus, that task should be considered complete when all of its sub-tasks are complete. In the example below, the task *1 Build a house* isn't a task do be done; it should be seen as the house is built when all of its sub-tasks have been completed.
 
+## Priority
+
+bug, docs, improvement, new feature
+
 ## Example
 
 | Index   | Task                                         | Dependencies |
