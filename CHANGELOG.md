@@ -6,6 +6,7 @@ This file chronicles all noteworthy changes to this project over time. It is bas
 
 -   Added
     -   Instructions for the initial planning stage.
+    -   Instructions for the working stage.
     -   Templates for readme, license changelog, guidelines for contributions and network diagram.
     
 -   Changed
