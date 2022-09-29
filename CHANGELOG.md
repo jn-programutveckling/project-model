@@ -5,12 +5,13 @@ This file chronicles all noteworthy changes to this project over time. It is bas
 ## [Unreleased]
 
 -   Added
+    -   Instructions for the initial planning stage.
     -   Templates for readme, license changelog, guidelines for contributions and network diagram.
+    
 -   Changed
     -   Now I only use GitHub issues for things other people report.
     -   Placement of dates in the changelog.
     -   Updated the templates to reflect how I use GitHub issues.
-    
 -   Removed
     -   Network diagram. I'm using a proper project management tool now.
     -   Template for a network diagram.
