@@ -5,9 +5,7 @@ This file chronicles all noteworthy changes to this project over time. It is bas
 ## [Unreleased]
 
 -   Added
-    -   Instructions for the initial planning stage.
-    -   Instructions for the release stage.
-    -   Instructions for the working stage.
+    -   Instructions for the planning, working and release stages.
     -   Templates for readme, license changelog, guidelines for contributions and network diagram.
     
 -   Changed
