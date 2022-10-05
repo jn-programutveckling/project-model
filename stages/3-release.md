@@ -10,6 +10,7 @@ This is the third stage of the project model. In this stage we prepare work we'v
    5. Update the change-log with links to the new version and version history. See the [change-log template](../templates/tpl-CHANGELOG.md) for more information.
    6. Merge the *release* branch with the `master` branch, as well as with `develop`.
    7. Create a new git tag with the version number and a new GitHub release. In the release comment, copy the appropriate change-log notes.
+   8. If the release is v1.0.0, decide whether to make the repository public or let it remain private.
 2. Whenever a new release has been published on GitHub…
    1. Write a blog post about it on my website.
    2. If the new version signifies a big change, record a video where I show those changes to YouTube.
