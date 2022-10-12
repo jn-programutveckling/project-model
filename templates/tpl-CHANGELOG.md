@@ -6,18 +6,18 @@ This file chronicles all noteworthy changes to this project over time. It is bas
 
 -   An ongoing list of unreleased changes. The contents here will go into a list of changes under the next release's heading.
 
-## Date of latest release : [version number of latest release]
+## [version number of latest release] (date of latest release)
 
 -   A list of changes to the project (added, changed, removed etc. (see Keep a changelog)).
 
-## Date of the release before : [version number of the release before]
+## [version number of the release before] (date of the release before)
 
 -   A list of changes…
 
 # Instructions
 
 1.   Write changes to the project under *Unreleased*.
-2.   When it's time for release, move them under a heading with the date and version number of the next release.
+2.   When it's time for release, move them under a heading with the version number and date of the next release.
 3.   *Unreleased* and the version numbers are linked. Change their targets to the appropriate values for your project. The initial release should have the target `<first commit>...<first version>`, for example `1234...v0.1.0`. The link for unreleased should have the target `<latest version>...HEAD`, for example `v0.1.0...HEAD`.
 4.   Remove the *Instructions* section. :smile:
 
