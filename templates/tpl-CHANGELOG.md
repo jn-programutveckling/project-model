@@ -18,7 +18,7 @@ This file chronicles all noteworthy changes to this project over time. It is bas
 
 1.   Write changes to the project under *Unreleased*.
 2.   When it's time for release, move them under a heading with the date and version number of the next release.
-3.   *Unreleased* and the version numbers are linked. Change their targets to the appropriate values for your project. The initial release should have the target `<first commit>...<first version>`, for example `1234...v0.1.0`. The link for unreleased should have the target `<latest version>...HEAD`, for example `v0.1.0..HEAD`.
+3.   *Unreleased* and the version numbers are linked. Change their targets to the appropriate values for your project. The initial release should have the target `<first commit>...<first version>`, for example `1234...v0.1.0`. The link for unreleased should have the target `<latest version>...HEAD`, for example `v0.1.0...HEAD`.
 4.   Remove the *Instructions* section. :smile:
 
 [unreleased]: https://github.com/jn-programutveckling/project-model/compare/v0.1.0...HEAD
