@@ -38,11 +38,13 @@ Define the budget parameters and constraints in terms of money and time. Not so 
 
 ## Requirements
 
-Depending 
+Most projects have requirements. Depending on what the budget allows, we should make a list of both functional requirements (the resulting end product) and project requirements (how the work should be performed), and sort them by priority. This is mostly important for contract work or projects with budget constraints, because it helps us to define which scope we can realistically achieve. In projects without money or time constraints, it makes little sense to cut off requirements and not do them all.
+
+For priorities, use MoSCoW (must have, should have, could have and won't have),
 
 ## Scope
 
-Now it's time to create a work breakdown structure (WBS). This is a hierarchical structure of all the work needed to be done for the project goals to be met. It can be difficult to capture everything in the beginning before anything has been implemented, but it's important to try capturing as much as possible. We can always revisit this WBS at a later stage, so if we miss something here it's not a huge deal. Try to be thorough, though. If there is a budget in place, it can guide us on the scope.
+Now it's time to create a work breakdown structure (WBS). This is a hierarchical structure of all the work needed to be done for the project goals and requirements to be met. It can be difficult to capture everything in the beginning before anything has been implemented, but it's important to try capturing as much as possible. We can always revisit this WBS at a later stage, so if we miss something here it's not a huge deal. Try to be thorough, though. If there is a budget in place, it can guide us on the scope.
 
 While writing the WBS, we shouldn't concern ourselves with order of execution or interdependencies between work units. Just put it all in there. Order of execution is dealt with later.
 
@@ -76,4 +78,40 @@ It's a good idea to make any limitations to the scope explicit in the project pl
 
 > We will not implement the ability to login via physical pass cards.
 
-## 
+## Delivery or integration
+
+Describe how the end product should be delivered or integrated into a target environment. Where the product should be made available, at which price etc.
+
+## SWOT analysis
+
+The purpose of a SWOT analysis is to capture the current situation and environment of both within the project organisation and in the society outside of it, and identify strengths, weaknesses, opportunities and threats that may have an impact on the project.
+
+Strengths are factors internal to the project organisation that may make the realisation of the project goals easier. Example:
+
+> Domain knowledge of the podcasting field.
+
+Weaknesses are factors internal to the project organisation that may make the realisation of the project goals more difficult. Example:
+
+> Lack of experience building machine learning models.
+
+Opportunities are factors external to the project organisation (present in society or current environment) that may make the realisation of the project goals easier. Example:
+
+> Public interest and adoption rate is high for accessible mobile apps.
+
+Threats are factors external to the project organisation that may make the realisation of the project goals more difficult. Example:
+
+> The market for computer zombie survival games are very saturated.
+
+Now that we have identified strengths, weaknesses, opportunities and threats it's time to combine them to create strategies.
+
+Advantages are strengths we can use to capitalise on opportunities. Example:
+
+> There is a high demand in the podcasting field for easy to use planning tools. I have domain knowledge of podcasting because I have been a podcaster myself, so I know what the podcaster needs in terms of planning.
+
+Protections are strengths we can use to shield us against threats. Example:
+
+> Although the market for computer zombie survival games are very saturated, our project team has made several well-liked games in the same genre. Therefor we are confident we can break through the noice.
+
+Vulnerabilities are threats that may be realised or exacerbated because of weaknesses. Example:
+
+> 
