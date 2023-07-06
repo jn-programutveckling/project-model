@@ -10,8 +10,16 @@ Modern software development favours agile and scrum over waterfall, due to the h
 
 In this project model I make use of both the older waterfall methodology and agile where it makes sense to use either.
 
+The following steps should not be performed just once, but iterated on when there is need for it, for example going back to the project plan from the implementation phase if the WBS needs to expand or be altered.
+
 # Write a project plan
 
-The first thing we should do in a project is to write a project plan. It will help us to know what should be done, why, when, in which order and by whom.
+The first thing we should do in a project is to write a project plan. It will help us to know what should be done, why, when, in which order and by whom. 
 
 [Read more about the project plan.](project-plan.md)
+
+# Implementation
+
+After we have made the project plan it's time to start implementing the solution. We will probably have to go back and revise  the project plan many times during the implementation phase.
+
+[Read more about the implementation.](implementation.md)

@@ -56,6 +56,8 @@ The WBS should be written in a hierarchical list format, for example:
 >    4. …
 > 2. …
 
+Don't forget that documentation and design are also important "features", thus they should be added to the WBS. This is more important in larger or complex projects, for example in game development, a game design document is very important and should absolutely be part of the WBS.
+
 # Limitations
 
 It's a good idea to make any limitations to the scope explicit in the project plan. Doing that reduces the risk of so-called scope creep, a situation where one slowly and often without noticing expands the scope of a project beyond what was initially planned and budgeted for. These limitations can both be defined on the project level or feature level. An example of limitations on a feature can be as follows:
