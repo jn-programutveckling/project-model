@@ -111,18 +111,45 @@ The first step in risk analysis is to identify possible risks to the project's s
 - Probability
   - High
   - Medium
-  - Negligent
-- Consequences
+  - Low
+- Impact
   - Severe
-  - Manageable
-  - Negligent
+  - Moderate
+  - Minor
 
-This gives us a matrix of nine possible risk values ranging from very likely risks with severe consequences, through very likely risks with negligent consequences and very unlikely risks with severe consequences, to risks that neither are likely nor have big consequences.
+
+This gives us a matrix of nine possible risk values. If we plot severe risks with high probability in the top left, and minor risks with low probability in the bottom right, we want to try to move risks further down and right. That is, either reduce the likelihood that or limit the consequences of the risk occurs (or preferably both).
 
 When we have identified all risks and their risk value (probability x consequences) we have to assign a mitigation strategy for each risk. Mitigation strategies can be categorised into the following:
 
 - Reducing the likelihood of the risk occurring. In the extreme case, we can avoid the activity that introduces the risk, thus effectively reducing the likelihood to zero. This may not always be possible or desirable, but in the face of catastrophic consequences, perhaps even a negligent probability is unacceptable.
 - Limiting the consequences if the risk were to occur. Some risks are an inextricable part of what we're trying to accomplish and thus it can't be reduced. In those cases, perhaps we can try to limit the damage such a risk would make. 
+
+See the following matrix where H is high risk value, M is moderate risk value and L is low risk value. Risks with a high risk value are the most important ones to try to mitigate, so they move down to moderate risk value or lower.
+
+|                     | High probability | Medium prob. | Low prob. |
+| ------------------- | ---------------- | ------------ | --------- |
+| **Severe impact**   | H                | H            | M         |
+| **Moderate impact** | H                | M            | L         |
+| **Minor impact**    | M                | L            | L         |
+
+The following example shows a risk with a medium risk value. After mitigation, we can lower the risk value to low by lowering the probability. With this particular risk, the impact couldn't be lowered.
+
+> The hired artist will be more expensive than expected.
+>
+> Likelihood before mitigation: Medium
+>
+> Impact before mitigation: Moderate
+>
+> Risk value before mitigation: High
+>
+> Mitigation strategy: Negotiate a maximum price for the artists services.
+>
+> Likelihood after mitigation: Low
+>
+> Impact after mitigation: Moderate
+>
+> Risk value after mitigation: Medium
 
 # Milestones
 
