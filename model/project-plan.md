@@ -64,6 +64,36 @@ It's a good idea to make any limitations to the scope explicit in the project pl
 
 > We will not implement the ability to login via physical pass cards.
 
+# Milestones
+
+Milestones are natural points in the project life cycle where a delivery can be made or an important business decision has to be made, for example to evaluate the current state and decide on future development. In contrast to the WBS, milestones are ordered in time. Milestone 1 should normally be done before milestone 2.
+
+A piece of software can often be delivered in multiple steps. One way to do is to deliver one fully functional module or part after another, but a more common way is to deliver a bare-bones version of the whole project and over several iterations deliver more refined versions until it's the project is complete. Each of those steps are perfect candidates for a milestone. Example:
+
+> **Note taking app**
+>
+> Milestone 1: Ability to write unformatted text and save it to the file system.
+>
+> Milestone 2: Common formatting options, such as bold, italic, underline and bullet lists.
+>
+> Milestone 3: Ability to print the document.
+>
+> Milestone 4: Sharing options to external applications and services.
+
+When listing the milestones, think about how they map to the WBS, because we're about to order each task in the upcoming section.
+
+# Activities
+
+Now it's time to list activities and milestones in order. An activity is a feature divided into a stage of refinement, that is level 1 and 2 of the WBS combined. Construct a table with the following columns:
+
+- **ID.** A simple sequential number.
+- **Name.** A description of level 1 and 2 of the WBS.
+- **Dependencies.** Any activities that have to be completed before starting this one.
+- If we have a budget, **Duration**. How many time units (hours, days, weeks) this activity is expected to take.
+- If we have a budget, **Cost**. How much this activity will cost.
+
+Milestones are activities, too, with their own dependencies.
+
 # Delivery or integration
 
 Describe how the end product should be delivered or integrated into a target environment. Where the product should be made available, at which price etc.
@@ -150,34 +180,4 @@ The following example shows a risk with a medium risk value. After mitigation, w
 > Impact after mitigation: Moderate
 >
 > Risk value after mitigation: Medium
-
-# Milestones
-
-Milestones are natural points in the project life cycle where a delivery can be made or an important business decision has to be made, for example to evaluate the current state and decide on future development. In contrast to the WBS, milestones are ordered in time. Milestone 1 should normally be done before milestone 2.
-
-A piece of software can often be delivered in multiple steps. One way to do is to deliver one fully functional module or part after another, but a more common way is to deliver a bare-bones version of the whole project and over several iterations deliver more refined versions until it's the project is complete. Each of those steps are perfect candidates for a milestone. Example:
-
-> **Note taking app**
->
-> Milestone 1: Ability to write unformatted text and save it to the file system.
->
-> Milestone 2: Common formatting options, such as bold, italic, underline and bullet lists.
->
-> Milestone 3: Ability to print the document.
->
-> Milestone 4: Sharing options to external applications and services.
-
-When listing the milestones, think about how they map to the WBS, because we're about to order each task in the upcoming section.
-
-# Activities
-
-Now it's time to list activities and milestones in order. An activity is a feature divided into a stage of refinement, that is level 1 and 2 of the WBS combined. Construct a table with the following columns:
-
-- **ID.** A simple sequential number.
-- **Name.** A description of level 1 and 2 of the WBS.
-- **Dependencies.** Any activities that have to be completed before starting this one.
-- If we have a budget, **Duration**. How many time units (hours, days, weeks) this activity is expected to take.
-- If we have a budget, **Cost**. How much this activity will cost.
-
-Milestones are activities, too, with their own dependencies.
 
