@@ -32,7 +32,7 @@ Now it's time to create a work breakdown structure (WBS). This is a hierarchical
 
 While writing the WBS, we shouldn't concern ourselves with order of execution or interdependencies between work units. Just put it all in there. Order of execution is dealt with later.
 
-How granular a WBS should be can be a difficult decision. It's easy to go overboard with this, so I will try to limit myself to three levels:
+How granular a WBS should be can be a difficult decision. It's easy to go overboard with this, so I will try to limit myself to at most three levels:
 
 | Level | Name                | Description and examples                                     |
 | ----- | ------------------- | ------------------------------------------------------------ |
@@ -118,9 +118,11 @@ Threats are factors outside of our control that decreases the likelihood of proj
 
 > The market for computer zombie survival games are very saturated.
 
+## Strategies
+
 Now that we have identified strengths, weaknesses, opportunities and threats it's time to combine them to create strategies.
 
-Growth strategies aims to make use of strengths to capitalize on opportunities. Example:
+Growth strategies aims to make use of strengths to capitalise on opportunities. Example:
 
 > Because public interest is high for accessible mobile apps, I should make sure this mobile app is very accessible.
 
@@ -132,7 +134,9 @@ External development strategies aims to make use of our strengths to convert thr
 
 > If I advertise my skills and previous experience, I will get more contract work and make more money.
 
-Survival strategies aims to avoid threats, especially those witch a matching weakness. To do this, we must execute both internal and external development strategies.
+Survival strategies aims to avoid threats, especially those with a matching weakness. To do this, we must execute both internal and external development strategies. Example:
+
+> Because most gamers react negatively to games with cryptocurrency integration, I should avoid developing such games.
 
 # Risk analysis
 
@@ -180,4 +184,3 @@ The following example shows a risk with a medium risk value. After mitigation, w
 > Impact after mitigation: Moderate
 >
 > Risk value after mitigation: Medium
-
