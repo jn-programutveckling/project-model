@@ -29,3 +29,11 @@ After we have made the project plan it's time to start implementing the solution
 Depending on what we have decided in the delivery section in our project plan, we will make one or more deliveries. We will do this in parallel with implementation.
 
 [Read more about delivery.](delivery.md)
+
+# Input from users
+
+When people have used our software for a while, they will discover bugs and security issues. They could also come up with ideas and requests for new features or changes in existing features. We should create easy paths for those users to come in contact with us regarding this. GitHub's issue tracker is a good place for letting users file bug reports as well as feature requests. If we aren't using GitHub (for example if the project is closed-source with no plans of making it open-source), we could set up an e-mail address for that purpose.
+
+If the project is open-source, some users are even so kind as to propose source code in the form of what GitHub calls pull requests. This should be encouraged, along with bug reports, security reports and feature requests. We as developers can only bug test so much and work so fast, so extra help should be both encouraged and rewarded. Please don't be a jerk to users!
+
+Given the sensitive nature of discovered security vulnerabilities, security reports should not be treated as bug reports which can normally be publicly available without issues. Security reports from users should always be treated confidentially. [GitHub has tools for this](https://docs.github.com/en/code-security/security-advisories/guidance-on-reporting-and-writing/privately-reporting-a-security-vulnerability "GitHub on reporting security vulnerabilities").
