@@ -20,6 +20,12 @@ The first thing we should do in a project is to write a project plan. It will he
 
 # Implementation
 
-After we have made the project plan it's time to start implementing the solution. We will probably have to go back and revise  the project plan many times during the implementation phase.
+After we have made the project plan it's time to start implementing the solution. We will probably have to go back and revise the project plan many times during the implementation phase.
 
-[Read more about the implementation.](implementation.md)
+[Read more about implementation.](implementation.md)
+
+# Delivery
+
+Depending on what we have decided in the delivery section in our project plan, we will make one or more deliveries. We will do this in parallel with implementation.
+
+[Read more about delivery.](delivery.md)
