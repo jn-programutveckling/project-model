@@ -5,3 +5,23 @@ The first thing we probably should be thinking about is whether the project shou
 Open-source software builds trust because users can inspect the code for themselves. It's also easier for users to file good bug reports and also contribute with fixes themselves. The major downside of open-source software is that it's much harder to make money on it, because users could just download the source and build the software themselves instead of buying it from us. Developers of commercial open-source software usually solve this problem by having two versions, one free and open-source and one paid and closed-source, where the paid version offers more features and also support.
 
 It's always easier to turn a closed-source project into an open-source one than the other way around. My recommendation is to always start out with closed source if there is no compelling reason to do otherwise, for example use of third-party libraries which licenses require us to have our code open-source (for example the [GPL](https://choosealicense.com/licenses/gpl-3.0/)).
+
+# Licensing
+
+Dealing with licenses can be very hard. This is especially true if we're using third-party open-source code. There is a myriad open-source licenses and combining them can often be a hassle, especially for people who aren't lawyers.
+
+Similar to what I wrote in the previous section about how it's easier to turn a closed-source project into an open-source one than the other way around, it's always easier to start with a more restrictive license and make it more permissive as time goes on, than the other way around. For example it's preferable to go from not permitting commercial usage to permitting it, than the other way around. Giving people more rights is always easier than taking rights away. It can be done, but it's not very popular and depending on license terms, it might not even be legal.
+
+## Choosing a license for our project
+
+The first step in choosing the proper license for our project is to look at the license terms of all third-party libraries we are using, and find the most permissive terms that would satisfy all of them. Example:
+
+> Library A permits commercial use but requires that the source code is made public.
+>
+> Library B does not permit commercial use but also permits its use in closed-source software.
+>
+> To satisfy both libraries' license terms, we must not make our project commercial and we must make the source code public.
+
+In some cases, two licenses are mutually incompatible. Then our only recourse is to try to find some other libraries that aren't incompatible. We could also choose to write our own code, but that may be too expensive or otherwise undesirable.
+
+When we have our baseline of what required of us by third-party licenses, it's time to decide upon how we want our project to be used. Both [Choosealicense](https://choosealicense.com/appendix/) and [Creative Commons](https://creativecommons.org/share-your-work/) are good resources on how to think about which license one might want or need. My recommendation is to treat any license we choose as final and unchangeable. Which permissions are we comfortable giving users five years from now? Would we feel snubbed to see someone making money off a slight modification of our work? Then, we should write a license that doesn't permit such behaviour.
