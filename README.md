@@ -4,7 +4,9 @@ The project model I use for both professional and hobby software development. I 
 
 ## Usage
 
-To use this project model, start with downloading or cloning this repository. 
+To use this project model, start with downloading or cloning this repository. You can also read it online on GitHub. The starting point for the project model itself is the file *model/README.md*. From there, there are more specific documents in the *model* directory to read depending on what you're interested in.
+
+The *templates* directory is currently unused.
 
 ## Licensing
 
