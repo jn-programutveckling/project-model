@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.0.0 (2023-08-17)
+
+- Added
+  - Repository documents: a readme, a license document, a changelog and a document on how to contribute to the project.
+
 ## 0.2.0 (2023-07-31)
 
 - Added
@@ -11,5 +16,3 @@ My project model sees the light of day. It's rough but largely feature complete.
 
 ## Unreleased
 
-- Added
-  - Repository documents: a readme, a license document, a changelog and a document on how to contribute to the project.
