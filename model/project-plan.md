@@ -38,9 +38,13 @@ The list of activities can, and should, be revisited many times throughout the l
 
 Take a look at the following example:
 
-> | ID   | Activity name | Mapped to requirement | Dependencies |
-> | ---- | ------------- | --------------------- | ------------ |
-> | 1    |               |                       |              |
+> | ID   | Activity name                                                | Mapped to requirement |
+> | ---- | ------------------------------------------------------------ | --------------------- |
+> | 1    | Login form with fields for username and password.            | 1                     |
+> | 2    | On successful login, the user should be presented with a welcoming message containing the username. | 1                     |
+> | M1   |                                                              |                       |
+> | 4    | Help screen on how to log in when the user presses F1 on the keyboard. | 3                     |
+> | 3    | A user should be able to be logged in automatically at the start of the app. | 2                     |
 >
 > 
 
