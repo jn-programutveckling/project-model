@@ -24,39 +24,25 @@ Define the budget parameters and constraints in terms of money and time. Not so 
 
 Most projects have requirements. Depending on what the budget allows, we should make a list of both functional requirements (the resulting end product) and project requirements (how the work should be performed), and sort them by priority. This is mostly important for contract work or projects with budget constraints, because it helps us to define which scope we can realistically achieve. In projects without money or time constraints, it makes little sense to cut off requirements and not do them all.
 
-For priorities, use MoSCoW (must have, should have, could have and won't have),
+For priorities, use MoSCoW (must have, should have, could have and won't have). Give each requirement an ID, so they can be referenced in the activities table.
 
-# Scope
+# Activities
 
-Now it's time to create a work breakdown structure (WBS). This is a hierarchical structure of all the work needed to be done for the project goals and requirements to be met. It can be difficult to capture everything in the beginning before anything has been implemented, but it's important to try capturing as much as possible. We can always revisit this WBS at a later stage, so if we miss something here it's not a huge deal. Try to be thorough, though. If there is a budget in place, it can guide us on the scope.
+When planning what to do and when to do it, normally one would first create a work breakdown structure, WBS for short, to list everything that needs to be done to meet the project goals and requirements, regardless of the order in which they need to be done. Then with the WBS in hand, one would construct a network map, in which the time line of when to do each thing and in which order is made visible. After that, milestones are placed in select places throughout the time line of the project, where one takes stock of the project status and perhaps also partially delivers the results of the project so far.
 
-While writing the WBS, we shouldn't concern ourselves with order of execution or interdependencies between work units. Just put it all in there. Order of execution is dealt with later.
+However, because I work alone, I feel that this process is too cumbersome to do in multiple steps. Therefore these steps are merged into one in my project model. I still go through the aforementioned steps, but only implicitly. I don't maintain separate documents for the WBS, network map and milestones; instead I keep everything in a single table.
 
-How granular a WBS should be can be a difficult decision. It's easy to go overboard with this, so I will try to limit myself to at most three levels:
+Don't forget that documentation and design are also important activities to include. This is more important in larger or complex projects, for example in game development, a game design document is very important and should absolutely be part of the activities table.
 
-| Level | Name                | Description and examples                                     |
-| ----- | ------------------- | ------------------------------------------------------------ |
-| 1     | Feature             | High-level features of the project, e.g. a login system, a level in a video game, or configuration options. |
-| 2     | Stage of refinement | A feature is divided in multiple stages of refinement for iterative development purposes. For example a login system could have a pure username/login prompt as its first stage, a "reset password" link as its second, and a "remember me" option as its third. |
-| 3     | Task                | The actual work needed to be done in each module to achieve the intended result of the feature, e.g. for a login system, the UI module would have tasks for creating the login form and menu items to reach it, while the database module would have tasks for retrieving user data from the database. |
+The list of activities can, and should, be revisited many times throughout the lifetime of the project, whether it is to add new items, remove finished items or something else.
 
-The WBS should be written in a hierarchical list format, for example:
+Take a look at the following example:
 
-> 1. Login system
->    1. Simple username/password prompt
->       1. Login form
->       2. Menu items to reach the login form
->       3. Match login credentials to user table row
->       4. …
->    2. Ability to reset one's password
->       1. E-mail a link to a reset password page
->       2. …
->    3. …
->       1. …
->    4. …
-> 2. …
-
-Don't forget that documentation and design are also important "features", thus they should be added to the WBS. This is more important in larger or complex projects, for example in game development, a game design document is very important and should absolutely be part of the WBS.
+> | ID   | Activity name | Mapped to requirement | Dependencies |
+> | ---- | ------------- | --------------------- | ------------ |
+> | 1    |               |                       |              |
+>
+> 
 
 # Limitations
 
@@ -116,7 +102,7 @@ Opportunities are factors outside of our control that increases the likelihood o
 
 Threats are factors outside of our control that decreases the likelihood of project success. Example:
 
-> The market for computer zombie survival games are very saturated.
+> The market for computer zombie survival games is very saturated.
 
 ## Strategies
 
