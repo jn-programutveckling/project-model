@@ -24,75 +24,41 @@ Define the budget parameters and constraints in terms of money and time. Not so 
 
 Most projects have requirements. Depending on what the budget allows, we should make a list of both functional requirements (the resulting end product) and project requirements (how the work should be performed), and sort them by priority. This is mostly important for contract work or projects with budget constraints, because it helps us to define which scope we can realistically achieve. In projects without money or time constraints, it makes little sense to cut off requirements and not do them all.
 
-For priorities, use MoSCoW (must have, should have, could have and won't have),
+For priorities, use MoSCoW (must have, should have, could have and won't have). Give each requirement an ID, so they can be referenced in the activities table.
 
-# Scope
+# Activities
 
-Now it's time to create a work breakdown structure (WBS). This is a hierarchical structure of all the work needed to be done for the project goals and requirements to be met. It can be difficult to capture everything in the beginning before anything has been implemented, but it's important to try capturing as much as possible. We can always revisit this WBS at a later stage, so if we miss something here it's not a huge deal. Try to be thorough, though. If there is a budget in place, it can guide us on the scope.
+When planning what to do and when to do it, normally one would first create a work breakdown structure, WBS for short, to list everything that needs to be done to meet the project goals and requirements, regardless of the order in which they need to be done. Then with the WBS in hand, one would construct a network map, in which the time line of when to do each thing and in which order is made visible. After that, milestones are placed in select places throughout the time line of the project, where one takes stock of the project status and perhaps also partially delivers the results of the project so far.
 
-While writing the WBS, we shouldn't concern ourselves with order of execution or interdependencies between work units. Just put it all in there. Order of execution is dealt with later.
+However, because I work alone, I feel that this process is too cumbersome to do in multiple steps. Therefore these steps are merged into one in my project model. I still go through the aforementioned steps, but only implicitly. I don't maintain separate documents for the WBS, network map and milestones; instead I keep everything in a single table.
 
-How granular a WBS should be can be a difficult decision. It's easy to go overboard with this, so I will try to limit myself to at most three levels:
+Don't forget that documentation and design are also important activities to include. This is more important in larger or complex projects, for example in game development, a game design document is very important and should absolutely be part of the activities table.
 
-| Level | Name                | Description and examples                                     |
-| ----- | ------------------- | ------------------------------------------------------------ |
-| 1     | Feature             | High-level features of the project, e.g. a login system, a level in a video game, or configuration options. |
-| 2     | Stage of refinement | A feature is divided in multiple stages of refinement for iterative development purposes. For example a login system could have a pure username/login prompt as its first stage, a "reset password" link as its second, and a "remember me" option as its third. |
-| 3     | Task                | The actual work needed to be done in each module to achieve the intended result of the feature, e.g. for a login system, the UI module would have tasks for creating the login form and menu items to reach it, while the database module would have tasks for retrieving user data from the database. |
+The list of activities can, and should, be revisited many times throughout the lifetime of the project, whether it is to add new items, remove finished items or something else.
 
-The WBS should be written in a hierarchical list format, for example:
+Take a look at the following example:
 
-> 1. Login system
->    1. Simple username/password prompt
->       1. Login form
->       2. Menu items to reach the login form
->       3. Match login credentials to user table row
->       4. …
->    2. Ability to reset one's password
->       1. E-mail a link to a reset password page
->       2. …
->    3. …
->       1. …
->    4. …
-> 2. …
+> | ID   | Activity name                                                | Mapped to requirement |
+> | ---- | ------------------------------------------------------------ | --------------------- |
+> | 1    | Login form with fields for username and password.            | 1                     |
+> | 2    | On successful login, the user should be presented with a welcoming message containing the username. | 1                     |
+> | M1   | The user is able to log in.                                  |                       |
+> | 4    | Help screen on how to log in when the user presses F1 on the keyboard. | 3                     |
+> | M2   | The user can get help.                                       |                       |
+> | 3    | The user should be able to be logged in automatically at the start of the app. | 2                     |
+> | 5    | The user should be able to withdraw the automatic login at any time. | 2                     |
+> | M3   | Automatic login and ability to stop using it.                |                       |
+>
 
-Don't forget that documentation and design are also important "features", thus they should be added to the WBS. This is more important in larger or complex projects, for example in game development, a game design document is very important and should absolutely be part of the WBS.
+In the preceding example I assume three different requirements.
+
+If there is a budget in place, the activities table can have two more columns: one for duration (how many time units I expect to work on this activity) and one for cost (how much this activity is expected to cost).
 
 # Limitations
 
 It's a good idea to make any limitations to the scope explicit in the project plan. Doing that reduces the risk of so-called scope creep, a situation where one slowly and often without noticing expands the scope of a project beyond what was initially planned and budgeted for. These limitations can both be defined on the project level or feature level. An example of limitations on a feature can be as follows:
 
 > We will not implement the ability to login via physical pass cards.
-
-# Milestones
-
-Milestones are natural points in the project life cycle where a delivery can be made or an important business decision has to be made, for example to evaluate the current state and decide on future development. In contrast to the WBS, milestones are ordered in time. Milestone 1 should normally be done before milestone 2.
-
-A piece of software can often be delivered in multiple steps. One way to do is to deliver one fully functional module or part after another, but a more common way is to deliver a bare-bones version of the whole project and over several iterations deliver more refined versions until it's the project is complete. Each of those steps are perfect candidates for a milestone. Example:
-
-> **Note taking app**
->
-> Milestone 1: Ability to write unformatted text and save it to the file system.
->
-> Milestone 2: Common formatting options, such as bold, italic, underline and bullet lists.
->
-> Milestone 3: Ability to print the document.
->
-> Milestone 4: Sharing options to external applications and services.
-
-When listing the milestones, think about how they map to the WBS, because we're about to order each task in the upcoming section.
-
-# Activities
-
-Now it's time to list activities and milestones in order. An activity is a feature divided into a stage of refinement, that is level 1 and 2 of the WBS combined. Construct a table with the following columns:
-
-- **ID.** A simple sequential number.
-- **Name.** A description of level 1 and 2 of the WBS.
-- **Dependencies.** Any activities that have to be completed before starting this one.
-- If we have a budget, **Duration**. How many time units (hours, days, weeks) this activity is expected to take.
-- If we have a budget, **Cost**. How much this activity will cost.
-
-Milestones are activities, too, with their own dependencies.
 
 # Delivery or integration
 
@@ -116,7 +82,7 @@ Opportunities are factors outside of our control that increases the likelihood o
 
 Threats are factors outside of our control that decreases the likelihood of project success. Example:
 
-> The market for computer zombie survival games are very saturated.
+> The market for computer zombie survival games is very saturated.
 
 ## Strategies
 
