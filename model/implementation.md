@@ -37,10 +37,8 @@ How to document our code (and even whether we should do it all) is a hotly debat
 
 These are the different kinds of documentation I find valuable:
 
-- Project and design documentation — the kind that I have written here, as well as documentation of how an entire product or part of it should function and present itself.
+- Project and design documentation — the kind that I have written here, as well as documentation of how an entire product or part of it should function and present itself. This type of documentation might not be for public consumption, so it's best not to check this into version control together with the rest of the project if we're someday want to go open-source.
 - Repository documents — readme, licenses, changelog, contributing information etc. Things that should be available in a repository, especially if it's open-source.
 - User manuals and wikis — instructions for end-users as well as other developers who may use my API's or the like, on how to use the products I have created.
 - API documentation — documenting classes, methods, functions etc. in such a way I can build documentation artefacts such as Javadoc.
 - Inline comments in code — this can be of great benefit to quickly see what's going on. The least important in my opinion, but it can definitely be useful.
-
-In the *templates* folder in this repository there are some templates and examples of various documentation.
