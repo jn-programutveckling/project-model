@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+## 1.1.0 (2023-09-11)
+
 - Added
   - Clarification that small activities don't need a separate feature branch, and could be worked on the main branch directly.
   - Mention that project and design documents might not be suitable to check into version control together with the rest of the project, if we someday want to make the project open-source.
