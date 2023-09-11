@@ -42,47 +42,23 @@ Take a look at the following example:
 > | ---- | ------------------------------------------------------------ | --------------------- |
 > | 1    | Login form with fields for username and password.            | 1                     |
 > | 2    | On successful login, the user should be presented with a welcoming message containing the username. | 1                     |
-> | M1   |                                                              |                       |
+> | M1   | The user is able to log in.                                  |                       |
 > | 4    | Help screen on how to log in when the user presses F1 on the keyboard. | 3                     |
-> | 3    | A user should be able to be logged in automatically at the start of the app. | 2                     |
+> | M2   | The user can get help.                                       |                       |
+> | 3    | The user should be able to be logged in automatically at the start of the app. | 2                     |
+> | 5    | The user should be able to withdraw the automatic login at any time. | 2                     |
+> | M3   | Automatic login and ability to stop using it.                |                       |
 >
-> 
+
+In the preceding example I assume three different requirements.
+
+If there is a budget in place, the activities table can have two more columns: one for duration (how many time units I expect to work on this activity) and one for cost (how much this activity is expected to cost).
 
 # Limitations
 
 It's a good idea to make any limitations to the scope explicit in the project plan. Doing that reduces the risk of so-called scope creep, a situation where one slowly and often without noticing expands the scope of a project beyond what was initially planned and budgeted for. These limitations can both be defined on the project level or feature level. An example of limitations on a feature can be as follows:
 
 > We will not implement the ability to login via physical pass cards.
-
-# Milestones
-
-Milestones are natural points in the project life cycle where a delivery can be made or an important business decision has to be made, for example to evaluate the current state and decide on future development. In contrast to the WBS, milestones are ordered in time. Milestone 1 should normally be done before milestone 2.
-
-A piece of software can often be delivered in multiple steps. One way to do is to deliver one fully functional module or part after another, but a more common way is to deliver a bare-bones version of the whole project and over several iterations deliver more refined versions until it's the project is complete. Each of those steps are perfect candidates for a milestone. Example:
-
-> **Note taking app**
->
-> Milestone 1: Ability to write unformatted text and save it to the file system.
->
-> Milestone 2: Common formatting options, such as bold, italic, underline and bullet lists.
->
-> Milestone 3: Ability to print the document.
->
-> Milestone 4: Sharing options to external applications and services.
-
-When listing the milestones, think about how they map to the WBS, because we're about to order each task in the upcoming section.
-
-# Activities
-
-Now it's time to list activities and milestones in order. An activity is a feature divided into a stage of refinement, that is level 1 and 2 of the WBS combined. Construct a table with the following columns:
-
-- **ID.** A simple sequential number.
-- **Name.** A description of level 1 and 2 of the WBS.
-- **Dependencies.** Any activities that have to be completed before starting this one.
-- If we have a budget, **Duration**. How many time units (hours, days, weeks) this activity is expected to take.
-- If we have a budget, **Cost**. How much this activity will cost.
-
-Milestones are activities, too, with their own dependencies.
 
 # Delivery or integration
 
