@@ -62,7 +62,9 @@ It's a good idea to make any limitations to the scope explicit in the project pl
 
 # Delivery or integration
 
-Describe how the end product should be delivered or integrated into a target environment. Where the product should be made available, at which price etc.
+Describe how the end product should be delivered or integrated into a target environment. Where the product should be made available, at which price etc. 
+
+Also describe how any intermediary deliveries will be handled in this regard. Software is rarely really finished, so it's fair to say that all but abandonware is in an intermediary stage.
 
 # SWOT analysis
 
