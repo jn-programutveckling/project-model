@@ -4,6 +4,9 @@
 
 - Added
   - Description of two methods of a release schedule: based on work, and based on time. I will use the latter method in my projects.
+- Changed
+  - The activities table is now removed in favour of a [TaskCoach](https://www.taskcoach.org/) tree.
+
 
 ## 1.1.0 (2023-09-11)
 

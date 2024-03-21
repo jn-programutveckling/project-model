@@ -24,35 +24,19 @@ Define the budget parameters and constraints in terms of money and time. Not so 
 
 Most projects have requirements. Depending on what the budget allows, we should make a list of both functional requirements (the resulting end product) and project requirements (how the work should be performed), and sort them by priority. This is mostly important for contract work or projects with budget constraints, because it helps us to define which scope we can realistically achieve. In projects without money or time constraints, it makes little sense to cut off requirements and not do them all.
 
-For priorities, use MoSCoW (must have, should have, could have and won't have). Give each requirement an ID, so they can be referenced in the activities table.
+For priorities, use MoSCoW (must have, should have, could have and won't have). Give each requirement an ID, so they can be referenced in other parts of the planning process.
 
 # Activities
 
-When planning what to do and when to do it, normally one would first create a work breakdown structure, WBS for short, to list everything that needs to be done to meet the project goals and requirements, regardless of the order in which they need to be done. Then with the WBS in hand, one would construct a network map, in which the time line of when to do each thing and in which order is made visible. After that, milestones are placed in select places throughout the time line of the project, where one takes stock of the project status and perhaps also partially delivers the results of the project so far.
+When planning what to do and when to do it, normally one would first create a work breakdown structure, WBS for short, to list everything that needs to be done to meet the project goals and requirements, regardless of the order in which they need to be done. Then with the WBS in hand, one would construct a network map, in which the time line of when to do each thing and in which order is made visible.
 
-However, because I work alone, I feel that this process is too cumbersome to do in multiple steps. Therefore these steps are merged into one in my project model. I still go through the aforementioned steps, but only implicitly. I don't maintain separate documents for the WBS, network map and milestones; instead I keep everything in a single table.
+However, because I work alone, I feel that this process is too cumbersome to do in multiple steps. Therefore these steps are merged into one in my project model. I still go through the aforementioned steps, but only implicitly. I don't maintain separate documents for the WBS and network map; instead I keep everything in a [TaskCoach](https://www.taskcoach.org/) tree.
 
-Don't forget that documentation and design are also important activities to include. This is more important in larger or complex projects, for example in game development, a game design document is very important and should absolutely be part of the activities table.
+Don't forget that documentation and design are also important activities to include. This is more important in larger or complex projects, for example in game development, a game design document is very important and should absolutely be part of the activities.
 
 The list of activities can, and should, be revisited many times throughout the lifetime of the project, whether it is to add new items, remove finished items or something else.
 
-Take a look at the following example:
-
-> | ID   | Activity name                                                | Mapped to requirement |
-> | ---- | ------------------------------------------------------------ | --------------------- |
-> | 1    | Login form with fields for username and password.            | 1                     |
-> | 2    | On successful login, the user should be presented with a welcoming message containing the username. | 1                     |
-> | M1   | The user is able to log in.                                  |                       |
-> | 4    | Help screen on how to log in when the user presses F1 on the keyboard. | 3                     |
-> | M2   | The user can get help.                                       |                       |
-> | 3    | The user should be able to be logged in automatically at the start of the app. | 2                     |
-> | 5    | The user should be able to withdraw the automatic login at any time. | 2                     |
-> | M3   | Automatic login and ability to stop using it.                |                       |
->
-
-In the preceding example I assume three different requirements.
-
-If there is a budget in place, the activities table can have two more columns: one for duration (how many time units I expect to work on this activity) and one for cost (how much this activity is expected to cost).
+If there is a budget in place, the activities should also take into account duration (how many time units I expect to work on this activity) and cost (how much this activity is expected to cost).
 
 # Limitations
 
