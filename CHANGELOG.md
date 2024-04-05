@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+## 1.2.0 (2024-04-05)
+
 - Added
   - Description of two methods of a release schedule: based on work, and based on time. I will use the latter method in my projects.
 - Changed
