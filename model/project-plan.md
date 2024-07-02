@@ -1,6 +1,6 @@
 # Background
 
-Explain why there is a need for the project and describe the original idea behind it. Tie that to the project goals and perhaps also how the project can contribute to overall business benefit.
+Explain why there is a need for the project and describe the original idea behind it. Tie that to the project purpose and perhaps also how the project can contribute to overall business benefit.
 
 # Purpose
 
@@ -9,12 +9,6 @@ For what effects will the project aim? Describe what the outcome will be when th
 > This racing game will be a short and relaxing distraction while commuting.
 
 > This budgeting software will help small businesses and households to keep track of their vacation money.
-
-# Goal
-
-Describe what should have been achieved when the project is finished. Goals should preferably be specific, measurable, attainable, realistic and timely (SMART). I don't care so much about time constraints, but if that is important, the goals should reflect that.
-
-There are two types of goals: product goals and process goals. Product goals are tied to the product in which this project will result. Process goals are tied to the project process itself. Product goals are the most common, but sometimes a project is important in and of itself, outside the resulting product.
 
 # Budget
 
