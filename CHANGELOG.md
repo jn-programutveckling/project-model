@@ -1,6 +1,6 @@
 # Changelog
 
-## Unreleased
+## 1.3.0 (2024-07-08)
 
 - Added
   - Clarification what small changes that don't require a separate branch means.
