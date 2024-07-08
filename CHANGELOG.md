@@ -2,6 +2,11 @@
 
 ## Unreleased
 
+- Added
+  - Clarification what small changes that don't require a separate branch means.
+- Removed
+  - The section about project goals.
+
 ## 1.2.0 (2024-04-05)
 
 - Added
