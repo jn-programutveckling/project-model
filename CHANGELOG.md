@@ -2,6 +2,8 @@
 
 ## Not yet released
 
+## 1.4.0 (2024-08-27)
+
 - Removed
   - Mentions of milestones in the implementation document.
 
