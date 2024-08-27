@@ -6,20 +6,21 @@ The basis upon which we plan the implementation is the activity list in the proj
 
 The following list outlines roughly the steps I take when doing implementation. More details of the individual steps can be found within this document.
 
-1. While there are milestones left in the project plan…
-   1. Pick the first milestone that has not been completed.
-   2. While there are activities left in that milestone…
+1. Until it's time to create a new release…
+   1. While there are activities left to work on…
       1. Create a new feature branch from `main`. Very small changes (like one commit) don't need a separate branch.
       2. Write unit tests that fits the requirements.
       3. While at least one test fail…
          1. Write code. Don't forget to also write comments.
+
       4. Make sure the code is properly documented and that the implementation truly satisfies the requirements.
       5. Update the changelog with a description of what I have done. If necessary, update the readme as well.
       6. Merge the branch back into `main`.
-   3. Make sure the code is properly documented and that the implementation truly satisfies the requirements. Also, make sure that the changelog, the readme and other repository documents is up-to-date.
-   4. Create delivery artefacts according to the delivery section in the project plan.
-   5. Merge the `main` branch to `production` and create a new tag for the new version.
-   6. Write a blog post about the new version. If the changes are big and the project is publicly available (either artefacts, code or both), I should probably also make a YouTube video showing the changes.
+
+2. Make sure the code is properly documented and that the implementation truly satisfies the requirements. Also, make sure that the changelog, the readme and other repository documents is up-to-date.
+3. Create delivery artefacts according to the delivery section in the project plan.
+4. Merge the `main` branch to `production` and create a new tag for the new version.
+5. Write a blog post about the new version. If the changes are big and the project is publicly available (either artefacts, code or both), I should probably also make a YouTube video showing the changes.
 
 # Write tests
 

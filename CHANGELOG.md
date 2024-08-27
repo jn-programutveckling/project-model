@@ -1,5 +1,13 @@
 # Changelog
 
+## Not yet released
+
+## 1.4.0 (2024-08-27)
+
+- Removed
+  - Mentions of milestones in the implementation document.
+
+
 ## 1.3.0 (2024-07-08)
 
 - Added
