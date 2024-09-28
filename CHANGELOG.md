@@ -2,6 +2,8 @@
 
 ## Not yet released
 
+## 1.5.0 (2024-09-29)
+
 - Removed
   - Mentions of SWOT and risk analyses in the model.
 
