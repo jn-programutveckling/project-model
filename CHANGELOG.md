@@ -2,6 +2,11 @@
 
 ## Not yet released
 
+- Changed
+  - Activities are now managed in the project plan itself, instead of in an external TaskCoach file.
+- Removed
+  - The section Requirements from the project plan.
+
 ## 1.5.0 (2024-09-29)
 
 - Removed
