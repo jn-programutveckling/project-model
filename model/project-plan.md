@@ -14,12 +14,6 @@ For what effects will the project aim? Describe what the outcome will be when th
 
 Define the budget parameters and constraints in terms of money and time. Not so important with my own projects, but useful when it comes to contract work.
 
-# Requirements
-
-Most projects have requirements. Depending on what the budget allows, we should make a list of both functional requirements (the resulting end product) and project requirements (how the work should be performed), and sort them by priority. This is mostly important for contract work or projects with budget constraints, because it helps us to define which scope we can realistically achieve. In projects without money or time constraints, it makes little sense to cut off requirements and not do them all.
-
-For priorities, use MoSCoW (must have, should have, could have and won't have). Give each requirement an ID, so they can be referenced in other parts of the planning process.
-
 # Activities
 
 When planning what to do and when to do it, normally one would first create a work breakdown structure, WBS for short, to list everything that needs to be done to meet the project goals and requirements, regardless of the order in which they need to be done. Then with the WBS in hand, one would construct a network map, in which the time line of when to do each thing and in which order is made visible.

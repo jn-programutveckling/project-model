@@ -2,6 +2,9 @@
 
 ## Not yet released
 
+- Removed
+  - The section Requirements from the project plan.
+
 ## 1.5.0 (2024-09-29)
 
 - Removed
